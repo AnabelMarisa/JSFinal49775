@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Granada Tours</title>
+	<link rel="stylesheet" href="./css/estilos.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+	<script src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</head>
+
+<body>
+	<header>
+		<h1>Los Mejores Tours en Granada</h1>
+
+		<div class="container-icon">
+			<div class="container-cart-icon">
+				<img src="./assets/img/pngimg.com - shopping_cart_PNG38.png" alt="Carrito de Compra" width="54"
+					height="54">
+
+				<div class="count-products">
+					<span id="contador-productos">0</span>
+				</div>
+			</div>
+
+			<div class="container-cart-products hidden-cart">
+				<div class="row-product hidden">
+					<div class="cart-product">
+						<div class="info-cart-product">
+							<span class="cantidad-producto-carrito">1</span>
+							<p class="titulo-producto-carrito">Alhambra</p>
+							<span class="precio-producto-carrito">19.09€</span>
+						</div>
+						<img src="../assets/img/carrocompra.jpg" alt="carro compra">
+					</div>
+				</div>
+
+				<div class="cart-total hidden">
+					<h3>Total:</h3>
+					<span class="total-pagar">€200</span>
+				</div>
+				<button class="btn-comprar">Comprar</button>
+				<p class="cart-empty">El carrito está vacío</p>
+			</div>
+		</div>
+	</header>
+	<div class="container-items">
+		<div class="item">
+			<figure>
+				<img src="./assets/img/albambram.webp" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Alhambra</h2>
+				<p class="price">19.09€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./assets/img/flamenco.jpg" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Show de Flamenco</h2>
+				<p class="price">26€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./assets/img/tren1.webp" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Tren Turístico</h2>
+				<p class="price">13€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./assets/img/museo-cuevas-del-sacromonte.jpg" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Museo de las Cuevas</h2>
+				<p class="price">5€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./assets/img/baños elvira.jpg" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Baños Arabes</h2>
+				<p class="price">40€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+		<div class="item">
+			<figure>
+				<img src="./assets/img/Parque-Ciencias-Granada.jpg" alt="producto" />
+			</figure>
+			<div class="info-product">
+				<h2>Parque de las Ciencias</h2>
+				<p class="price">13€</p>
+				<button class="btn-add-cart">Añadir al carrito</button>
+			</div>
+		</div>
+
+		<script src="./js/index.js"></script>
+		
+</body>
+
+</html>

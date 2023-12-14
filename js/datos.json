@@ -1,0 +1,34 @@
+{
+    "datos": [
+        {
+            "nombre": "Alhambra",
+            "imagen": "../assets/img/albambram.webp",
+            "precio": "19.09€"
+        },
+        {
+            "nombre": "Show de Flamenco",
+            "imagen": "../assets/img/flamenco.jpg",
+            "precio": "26€"
+        },
+        {
+            "nombre": "Tren Turístico",
+            "imagen": "../assets/img/tren1.webp",
+            "precio": "13€"
+        },
+        {
+            "nombre": "Museo de las Cuevas",
+            "imagen": "../assets/img/baños elvira.jpg",
+            "precio": "5€"
+        },
+        {
+            "nombre": "Baños Arabes",
+            "imagen": "../assets/img/museo-cuevas-del-sacromonte.jpg",
+            "precio": "40€"
+        },
+        {
+            "nombre": "Parque de las Ciencias",
+            "imagen": "../assets/img/Parque-Ciencias-Granada.jpg",
+            "precio": "13€"
+        }
+    ]
+}
